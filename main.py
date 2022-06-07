@@ -153,7 +153,7 @@ with torch.no_grad():
 print(f"Test Loss: {test_loss[-1].item():.4f}")
 ACC=eval_metric(pred[0],labels[0].cpu().numpy())
 print(f'Test accuracy: {ACC}')
-breakpoint()
+#breakpoint()
 '''
 #labels = torch.stack(labels)
 #pred = torch.stack(pred)
