@@ -1,2 +1,2 @@
-# Autism_Project
+# Autism Project
 Final project 
